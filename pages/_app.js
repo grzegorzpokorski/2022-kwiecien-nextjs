@@ -1,7 +1,11 @@
-import '../styles/globals.css'
+import GlobalLayaut from "../Components/GlobalLayaut";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <GlobalLayaut>
+      <Component {...pageProps} />
+    </GlobalLayaut>
+  );
+};
 
-export default MyApp
+export default MyApp;
