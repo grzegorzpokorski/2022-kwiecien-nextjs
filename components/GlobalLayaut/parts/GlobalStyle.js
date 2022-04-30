@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         font-family: var(--sans-serif);
         font-weight: var(--font-weight-regular);
-        line-height: 1.2;
+        line-height: 1.5;
         color: var(--gray); 
     }
 
